@@ -1,0 +1,124 @@
+	<doctayper html>
+<html>
+<head>
+<title>
+site div
+</title>
+<meta name="author content="richardmaster.com" />
+		<meta http-equiv="content-type" charset="utf-8"/>
+		<meta http-equiv="content-language" content="pt-br" />
+		<meta name="keywords" content="site, div, html15, aula, utramig" />
+		<meta name="descripition" content="aula do professor cleber leao sobre div na utramig" />
+	<style>
+	body{
+	background-color:teal;
+	margin:0
+	}
+	.geral{
+	background-color:#ffffff;
+	height:1031;
+	}
+	.topo{
+	width:100%;
+	height:120px;
+	background-color:yellow;
+	}
+	.logo{
+	width:25%;
+	height:160%;
+	background-color:white;
+	float:left;
+	}
+	.banner{
+	width:75%;
+	height:160%;
+	background-color:yellow;
+	float:right;
+	}
+	.menu{
+	width:100%;
+	height:11%;
+	background-color:#7FFF00;
+	}
+	.corpo{
+	width:100%;
+	height:70%;
+	background-color:white;
+	}
+	.rodape{
+	width:100%;
+	height:4%;
+	background-color:#7FFF00;
+	}
+	.conteudo{
+	width:49%;
+	height:100%;
+	background-color:white;
+	float:left;
+	}
+	.conteudo2{
+	width:49%;
+	height:100%;
+	background-color:white;
+	float:right;
+	}
+	</style>
+	</head>
+	<body>
+	
+	<div class="geral">
+		<div class="topo">
+			<div class="logo">
+			<img width="300" height="190"  src="img/logo.jpg"/> </div>
+			<div class="banner">
+			<img width="1068" height="192" src="img/banner.jpg"/> </div>
+			
+		</div>
+		<div align="center" class="menu">
+				<a href="index.html"><font size="5"/> home </a>|
+				<a href="quem_somos.html">quem somos </a>|
+				<a href="localizacao.html">localizacao </a>|
+				<a href="fale_conosco.html">fale conosco </a>
+				
+				
+		</div>
+	<div align="center" class="corpo">
+		<form action="enviar.php" method="post">
+<fieldset> <legend><h1>fale conosco</h1></legend>
+Nome:<br><input type="text" name="nome"><br>
+E-mail:<br><input placeholder="exemplo@hotmail.com" type="email" name="email"><br>
+sexo:<br><input type="radio" name="sexo" value="masculino"> masculino 
+<input type="radio" name="sexo" value="feminino"> feminino<br>
+data de nascimento:<br><input type="date" name="data"><br>
+telefone:<br><input type="text" name="telefone"><br>
+estado:<br><select>
+		<option value="#"> --selecione-- </option>
+		<option> Minas gerais </option>
+		<option> Rio de janeiro </option>
+		<option> São paulo </option>
+		</select> <br>
+cidade:<br><select>
+		<option value="#"> --selecione-- </option>
+		<option> belo horizonte </option>
+		<option> contagem </option>
+		<option> ribeirao das neves </option>
+		</select> <br>		
+assunto:<br> <textarea cols="50" rows="10"> </textarea>
+<br>retornar:<br>
+<input type="checkbox" value="manhã">manhã
+<input type="checkbox" value="tarde">tarde
+<input type="checkbox" value="noite">noite<br>
+ 
+
+
+
+
+<input type="submit" name="enviar" value="enviar"> 
+</fieldset>
+</form>
+				
+		</div>
+			
+		
+		</body>
+		</html>
